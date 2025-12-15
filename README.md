@@ -1,7 +1,7 @@
-uic_surrogate includes codes conducting causality test between environmental factors and Chl-a with seasonal surrogate. The methods is information-theoretic causality (UIC) (Osada et al., 2023)
+01_uic_surrogate includes codes conducting causality test between environmental factors and Chl-a with seasonal surrogate. The methods is information-theoretic causality (UIC) (Osada et al., 2023)
 
 
-mdr_smap includes codes conducting Chl-a forecast using univariate model (Chl-a only) and mutivariate model (Chl-a + environmental factors). The method is multiview distance regularised S-map (Chang et al., 2021)
+02_mdr_smap_uni_multi includes codes conducting Chl-a forecast using univariate model (Chl-a only) and mutivariate model (Chl-a + environmental factors). The method is multiview distance regularised S-map (Chang et al., 2021)
 
 
 data_epd includes raw data of in situ measurement collected by HKEPD (https://cd.epic.epd.gov.hk/EPICRIVER/marine/?lang=en) in 76 sites. Sampling was conducted on one date of each month (interval not constant).
