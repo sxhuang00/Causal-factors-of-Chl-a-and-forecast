@@ -14,6 +14,7 @@ Both dataset are monthly data starting from 2002/08 to 2022/07.
 
 
 Reference:
-Osada, Yutaka, Masayuki Ushio, and Michio Kondoh. "Unified understanding of nonparametric causality detection in time series." BioRxiv (2023).
 
-Chang, Chun‐Wei, et al. "Reconstructing large interaction networks from empirical time series data." Ecology Letters 24.12 (2021): 2763-2774.
+Osada, Yutaka, Masayuki Ushio, and Michio Kondoh. "Unified understanding of nonparametric causality detection in time series." BioRxiv (2023). (https://www.biorxiv.org/content/10.1101/2023.04.20.537743v2)
+
+Chang, Chun‐Wei, et al. "Reconstructing large interaction networks from empirical time series data." Ecology Letters 24.12 (2021): 2763-2774. (https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13897)
