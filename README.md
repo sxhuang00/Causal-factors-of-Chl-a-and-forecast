@@ -1,13 +1,19 @@
-01_uic_surrogate includes codes conducting causality test between environmental factors and Chl-a with seasonal surrogate. The methods is information-theoretic causality (UIC) (Osada et al., 2023)
+01_nearest_nei conducts interpolation to remote sensing data using nearest neighbor method.
+
+02_dineof conducts interpolation to remote sensing data using Data Interpolating Empirical Orthogonal Functions (DINEOF).
+
+03_ARIMA includes codes conducting ARIMA forecasting to Chl-a in order to identify the nonlinearity of Chl-a time series.
+
+04_uic_surrogate includes codes conducting causality test between environmental factors and Chl-a with seasonal surrogate. The methods is information-theoretic causality (UIC) (Osada et al., 2023)
 
 
-02_mdr_smap_uni_multi includes codes conducting Chl-a forecast using univariate model (Chl-a only) and mutivariate model (Chl-a + environmental factors). The method is multiview distance regularised S-map (Chang et al., 2021)
+05_mdr_smap_uni_multi includes codes conducting Chl-a forecast using univariate model (Chl-a only) and mutivariate model (Chl-a + environmental factors). The method is multiview distance regularised S-map (Chang et al., 2021)
 
 
 data_epd includes raw data of in situ measurement collected by HKEPD (https://cd.epic.epd.gov.hk/EPICRIVER/marine/?lang=en) in 76 sites. Sampling was conducted on one date of each month (interval not constant).
 
 
-data_modis includes raw data of remote sensing by MODIS (https://oceandata.sci.gsfc.nasa.gov/l3/) in 101 sites. Monthly data is average of daily data. The spatial resolution is 4km.
+data_modis includes raw data of remote sensing by MODIS (https://oceandata.sci.gsfc.nasa.gov/l3/) in 176 sites. Monthly data is average of daily data. The spatial resolution is 4km.
 
 
 Both dataset are monthly data starting from 2002/08 to 2022/07.
